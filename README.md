@@ -1,4 +1,4 @@
-<!-- SQL functions like creating tables, inserting data, and querying the data -->
+/*SQL functions like creating tables, inserting data, and querying the data*/
 
 
 CREATE TABLE marvels (ID INTEGER PRIMARY KEY,
@@ -38,8 +38,6 @@ INSERT INTO marvels VALUES(19, "Kitty Pryde", 13, "Good", "Female", 1.68, 50, "E
 INSERT INTO marvels VALUES(20, "Daredevil", 14, "Good", "Male", 1.83, 91, "EUA", 3, 3, 2, 2, 4, 5);
 SELECT * FROM marvels;
 
-
-/*student coding*/
 
 SELECT name, intelligence, fighting_Skills FROM marvels 
     WHERE intelligence > 4 AND fighting_Skills > 3;
