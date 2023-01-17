@@ -36,8 +36,6 @@ INSERT INTO marvels VALUES(20, "Daredevil", 14, "Good", "Male", 1.83, 91, "EUA",
 SELECT * FROM marvels;
 
 
-/*student coding*/
-
 SELECT name, intelligence, fighting_Skills FROM marvels 
     WHERE intelligence > 4 AND fighting_Skills > 3;
     
